@@ -1,0 +1,1 @@
+"QMainWindow { background-color: #2d2d2d; color: #ffffff; } QPushButton { background-color: #3d3d3d; border: 1px solid #555; color: white; padding: 5px; } QListWidget { background-color: #252525; color: #ffffff; border: 1px solid #444; }" 

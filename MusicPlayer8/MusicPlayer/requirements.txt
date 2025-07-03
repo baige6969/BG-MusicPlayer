@@ -1,0 +1,8 @@
+# 核心依赖(与根目录requirements.txt保持一致)
+cloudmusic>=1.0.0
+mutagen>=1.45.0  # 确保包含FLACPicture支持
+Pillow>=8.0.0
+PyQt5>=5.15.0
+python-vlc>=3.0.0  # VLC播放器集成
+
+# 注意: 构建工具依赖请使用根目录的requirements.txt

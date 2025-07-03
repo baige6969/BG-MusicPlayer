@@ -1,0 +1,18 @@
+# 核心依赖
+cloudmusic==0.1.1
+mutagen>=1.45.0  # 确保包含FLACPicture支持
+Pillow>=8.0.0
+PyQt5>=5.15.0
+python-vlc>=3.0.0  # VLC播放器集成
+requests>=2.25.0  # HTTP请求处理
+
+# 构建工具
+PyInstaller>=5.0.0
+setuptools>=60.0.0
+
+# 可选依赖
+numpy>=1.20.0  # 用于高级图像处理
+
+# 开发依赖
+black>=22.0.0  # 代码格式化
+flake8>=4.0.0  # 代码检查

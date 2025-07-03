@@ -1,0 +1,66 @@
+/* 基础样式 */
+QMainWindow {
+    background-color: #f0f0f0;
+    font-family: "Microsoft YaHei", "Arial";
+    font-size: 12px;
+}
+
+/* 按钮样式 */
+QPushButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+/* 列表样式 */
+QListWidget {
+    background: white;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    show-decoration-selected: 1;
+}
+
+/* 进度条样式 */
+QSlider::groove:horizontal {
+    height: 8px;
+    background: #ddd;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    width: 12px;
+    height: 12px;
+    background: #4CAF50;
+    margin: -2px 0;
+}
+
+/* 标签样式 */
+QLabel {
+    font-size: 12px;
+    color: #333;
+}
+
+/* 菜单栏样式 */
+QMenuBar {
+    background-color: #333;
+    color: white;
+}
+
+QMenuBar::item {
+    background: transparent;
+    padding: 5px 10px;
+}
+
+QMenuBar::item:selected {
+    background: #555;
+}
